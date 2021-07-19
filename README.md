@@ -24,7 +24,7 @@ len formalizmus, v tomto prípade štruktúru pravidiel a faktov a spôsob ich
 spracovania. Pozná akcie (pridaj, vymaž, ...), ktoré sa môžu vykonávať, lebo tie 
 patria do opisu formalizmu
 
-Reprezentacia faktov a pravidlov v textovom dokumente
+Reprezentacia faktov a pravidiel v textovom dokumente
 
 Fakty : 
 
@@ -76,11 +76,11 @@ Môj systém funguje len na rodinu keďže hľadá také premenná čo začínaj
 
 Algoritmus
 
-1. Načítava zoznam faktov a zoznam pravidiel zo .txt fajly .
+1. Načítava zoznam faktov a zoznam pravidiel z .txt fajly .
 
 2. Vytvorí zoznam všetkých aplikovateľných inštancii pravidiel.
 
-3. Naviaže všetky premenná podlá faktov.
+3. Program vytvorí kombinácie premenných podľa pravidiel.
 
 4. Vyrieši špeciálne pravidla.
 
@@ -90,7 +90,7 @@ Algoritmus
 
 Test 01 : 
 
-Používam obsah zo súboru : Fakty.txt a Pravidlo.txt
+Používam testovacie súbory Fakty.txt a Pravidlo.txt, ktoré sa nachádzajú v adresári : /src/umela/inteligencia/fiit/zadanie04/vlkolensky/mark/
 
 Výstup :
 
